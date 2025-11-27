@@ -1,7 +1,9 @@
 import Rails
 import RubyLuaBridge
 
-GUI = RubyLuaBridge:
+GUIFile = File.open("
+
+GUI = RubyLuaBridge.lua
 
 class App
   Event = nil
