@@ -1,4 +1,5 @@
 import Rails
+import rlua
 
 class App
   Event = nil
