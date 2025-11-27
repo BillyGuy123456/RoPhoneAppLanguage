@@ -1,5 +1,7 @@
 import Rails
-import rlua
+import RubyLuaBridge
+
+GUI = RubyLuaBridge:
 
 class App
   Event = nil
