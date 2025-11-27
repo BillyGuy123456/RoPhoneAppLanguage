@@ -5,3 +5,5 @@ local GUIHandler = {
     if Element.ClassName ∼= "GuiObject" then Element:Destroy(); warn("Not a GUI class!") else return Element end
   end
 }
+
+return GUIHandler
