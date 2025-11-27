@@ -1,2 +1,2 @@
 local AppGUI = Instance.new("Frame")
-local rlua = require('rlua')
+local RubyLuaBridge = require('RubyLuaBridge')
