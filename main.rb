@@ -1,9 +1,9 @@
-import Rails
-import RubyLuaBridge
+require 'Rails'
+require 'RubyLuaBridge'
 
-GUIFile = File.open("
+GUIFile = File.read("GUI.luau")
 
-GUI = RubyLuaBridge.lua
+GUI = RubyLuaBridge.lua.from(GUIFile)
 
 class App
   Event = nil
