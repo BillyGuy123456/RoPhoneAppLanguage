@@ -10,8 +10,8 @@ class App
   case Event
     when "AppTapped"
       trigger = "Triggered"
-    def OnTap
+    def OnTap()
       Event = AppTapped
     def JumpIn()
       if trigger === "Triggered"
-        
+        GUI:AddUIElement
